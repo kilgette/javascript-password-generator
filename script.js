@@ -5,12 +5,8 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
-
 }
-
-//input arrays of various avail chars
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
@@ -20,16 +16,6 @@ var lowerCaseArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"
 var specialArray = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "+", "-", ".", "`", "~", "|", "<", ">", "=", "-", "_"];
 var numbersArray = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9",];
 
-
-
-// //generate new password
-// function writePassword(){
-//   var password = generatePassword();
-//   var passwordText = document.querySelector("#password");
-// }
-
-
-//ask user how many characters the password should be - at least 8 chars < 128 chars
 function numberOfCharacters(){
   var numCharacters = 
   (prompt("How many characters do you want your password to be?"));
@@ -40,12 +26,6 @@ function numberOfCharacters(){
   return numCharacters
 }
 
-
-
-//prompt computer to chose random from available list
- //don't know what function to use 
-
-//put function here to generatePassword
 function generatePassword(){
   var allCharacters = [];
   var characterLength = numberOfCharacters();
@@ -74,6 +54,7 @@ function generatePassword(){
     console.log(allCharacters)
   }
 
+  var PassWord = 
   //first create password variable assigned an empty string
   //create forloop that will loop over all characters array and generate random indexes using math.floor and math.random
 

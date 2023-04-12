@@ -54,12 +54,17 @@ function generatePassword(){
     console.log(allCharacters)
   }
 
-  var PassWord = 
-  //first create password variable assigned an empty string
+  var PassWord = ""
+
   //create forloop that will loop over all characters array and generate random indexes using math.floor and math.random
-
-
-
-
-
+for (var i = 0; i <characterLength; i++) {
+  var randomIndex = Math.floor(Math.random() * allCharacters.length);
+  PassWord += allCharacters[randomIndex];
 }
+
+  return PassWord;
+}
+
+
+
+

@@ -2,9 +2,9 @@
 
 Name: Amy Kilgour 
 
-Please click [https://kilgette.github.io/javascript-password-generator/]
-(https://kilgette.github.io/javascript-password-generator/) to view the live version.  
-![Here is a screenshot of the page](./assets/images/screenshot.jpg)
+Please click [https://kilgette.github.io/javascript-password-generator/](https://kilgette.github.io/javascript-password-generator/) 
+to view the live version.  
+![Here is a screenshot of the page](./assets/screenshot.jpg)
 
 Objective: Create a password generator that fulfills the provided criteria, 
 utilizing what I've learned with JavaScript. 
